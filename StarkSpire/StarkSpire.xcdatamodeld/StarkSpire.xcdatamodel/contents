@@ -1,4 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G4015" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryEntity" representedClassName="CategoryEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="child_categories" optional="YES" attributeType="Transformable" customClassName="[Int]" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordModelEntity" inverseName="categories" inverseEntity="RecordModelEntity" syncable="YES"/>
+        <relationship name="products" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductEntity" inverseName="product" inverseEntity="ProductEntity" syncable="YES"/>
+    </entity>
+    <entity name="ProductEntity" representedClassName="ProductEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="date_added" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order_count" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="shares" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="view_count" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryEntity" inverseName="products" inverseEntity="CategoryEntity" syncable="YES"/>
+        <relationship name="rankproduct" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RankEntity" inverseName="products" inverseEntity="RankEntity" syncable="YES"/>
+        <relationship name="tax" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TaxEntity" inverseName="productTax" inverseEntity="TaxEntity" syncable="YES"/>
+        <relationship name="variants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VariantEntity" inverseName="productvariant" inverseEntity="VariantEntity" syncable="YES"/>
+    </entity>
+    <entity name="RankEntity" representedClassName="RankEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="ranking" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductEntity" inverseName="rankproduct" inverseEntity="ProductEntity" syncable="YES"/>
+        <relationship name="rank" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecordModelEntity" inverseName="rankings" inverseEntity="RecordModelEntity" syncable="YES"/>
+    </entity>
+    <entity name="RecordModelEntity" representedClassName="RecordModelEntity" syncable="YES" codeGenerationType="class">
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CategoryEntity" inverseName="category" inverseEntity="CategoryEntity" syncable="YES"/>
+        <relationship name="rankings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RankEntity" inverseName="rank" inverseEntity="RankEntity" syncable="YES"/>
+    </entity>
+    <entity name="TaxEntity" representedClassName="TaxEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="productTax" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductEntity" inverseName="tax" inverseEntity="ProductEntity" syncable="YES"/>
+    </entity>
+    <entity name="VariantEntity" representedClassName="VariantEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="productvariant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductEntity" inverseName="variants" inverseEntity="ProductEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CategoryEntity" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="ProductEntity" positionX="-36" positionY="27" width="128" height="195"/>
+        <element name="RankEntity" positionX="-45" positionY="63" width="128" height="90"/>
+        <element name="RecordModelEntity" positionX="-9" positionY="63" width="128" height="30"/>
+        <element name="TaxEntity" positionX="-36" positionY="72" width="128" height="30"/>
+        <element name="VariantEntity" positionX="-27" positionY="81" width="128" height="30"/>
+    </elements>
 </model>

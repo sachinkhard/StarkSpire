@@ -13,6 +13,17 @@
 		041B2B3121EE0E8700D8F6CD /* StarkSpire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041B2B2F21EE0E8700D8F6CD /* StarkSpire.xcdatamodeld */; };
 		041B2B3321EE0EAD00D8F6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041B2B3221EE0EAD00D8F6CD /* Assets.xcassets */; };
 		041B2B3621EE0EAD00D8F6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B2B3421EE0EAD00D8F6CD /* LaunchScreen.storyboard */; };
+		0487A24D21EEF38D0033E9B7 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A24C21EEF38D0033E9B7 /* RecordModel.swift */; };
+		0487A24F21EF03C20033E9B7 /* ServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A24E21EF03C20033E9B7 /* ServiceClass.swift */; };
+		0487A25121EF5DFA0033E9B7 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A25021EF5DFA0033E9B7 /* CommonUtils.swift */; };
+		2C22060AF3D8B5D583E410CF /* Pods_StarkSpire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9469B34B7F103685FB487F2D /* Pods_StarkSpire.framework */; };
+		970412BA2219536900FAE21F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970412B92219536700FAE21F /* CoreDataStack.swift */; };
+		97067DD92209DF9F004FE2E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97067DD82209DF9F004FE2E5 /* Constants.swift */; };
+		97067DDE2209EA9B004FE2E5 /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97067DDD2209EA98004FE2E5 /* ProductListVC.swift */; };
+		97067DE02209F60E004FE2E5 /* SimpleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97067DDF2209F60E004FE2E5 /* SimpleListViewController.xib */; };
+		97067DE22209F641004FE2E5 /* SimpleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97067DE12209F641004FE2E5 /* SimpleListViewController.swift */; };
+		97950FC621EF8FD900B2894F /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97950FC521EF8FD900B2894F /* CategoryCell.swift */; };
+		97950FC821EFAA5C00B2894F /* SubCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97950FC721EFAA5C00B2894F /* SubCategoryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,19 @@
 		041B2B3221EE0EAD00D8F6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041B2B3521EE0EAD00D8F6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041B2B3721EE0EAD00D8F6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0487A24C21EEF38D0033E9B7 /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		0487A24E21EF03C20033E9B7 /* ServiceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceClass.swift; sourceTree = "<group>"; };
+		0487A25021EF5DFA0033E9B7 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		25690C05C5A382992038236E /* Pods-StarkSpire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarkSpire.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarkSpire/Pods-StarkSpire.release.xcconfig"; sourceTree = "<group>"; };
+		77117823DA7014352E378645 /* Pods-StarkSpire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarkSpire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarkSpire/Pods-StarkSpire.debug.xcconfig"; sourceTree = "<group>"; };
+		9469B34B7F103685FB487F2D /* Pods_StarkSpire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarkSpire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		970412B92219536700FAE21F /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		97067DD82209DF9F004FE2E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		97067DDD2209EA98004FE2E5 /* ProductListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListVC.swift; sourceTree = "<group>"; };
+		97067DDF2209F60E004FE2E5 /* SimpleListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleListViewController.xib; sourceTree = "<group>"; };
+		97067DE12209F641004FE2E5 /* SimpleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListViewController.swift; sourceTree = "<group>"; };
+		97950FC521EF8FD900B2894F /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		97950FC721EFAA5C00B2894F /* SubCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C22060AF3D8B5D583E410CF /* Pods_StarkSpire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				041B2B2721EE0E8700D8F6CD /* StarkSpire */,
 				041B2B2621EE0E8700D8F6CD /* Products */,
+				743B2DA99CFE8CE831C6C02B /* Pods */,
+				55360EFAD846157D1C020FF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,106 @@
 		041B2B2721EE0E8700D8F6CD /* StarkSpire */ = {
 			isa = PBXGroup;
 			children = (
-				041B2B2821EE0E8700D8F6CD /* AppDelegate.swift */,
-				041B2B2A21EE0E8700D8F6CD /* ViewController.swift */,
-				041B2B2C21EE0E8700D8F6CD /* Main.storyboard */,
+				0487A25621EF607D0033E9B7 /* Classes */,
+				0487A25321EF60280033E9B7 /* Models */,
+				0487A25221EF601F0033E9B7 /* ServiceClass */,
+				0487A25421EF60350033E9B7 /* Utility */,
+				0487A25521EF605D0033E9B7 /* UI */,
+				97067DDA2209DFA8004FE2E5 /* Constants */,
 				041B2B3221EE0EAD00D8F6CD /* Assets.xcassets */,
-				041B2B3421EE0EAD00D8F6CD /* LaunchScreen.storyboard */,
 				041B2B3721EE0EAD00D8F6CD /* Info.plist */,
 				041B2B2F21EE0E8700D8F6CD /* StarkSpire.xcdatamodeld */,
 			);
 			path = StarkSpire;
+			sourceTree = "<group>";
+		};
+		0487A25221EF601F0033E9B7 /* ServiceClass */ = {
+			isa = PBXGroup;
+			children = (
+				0487A24E21EF03C20033E9B7 /* ServiceClass.swift */,
+			);
+			path = ServiceClass;
+			sourceTree = "<group>";
+		};
+		0487A25321EF60280033E9B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				970412B92219536700FAE21F /* CoreDataStack.swift */,
+				0487A24C21EEF38D0033E9B7 /* RecordModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0487A25421EF60350033E9B7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0487A25021EF5DFA0033E9B7 /* CommonUtils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0487A25521EF605D0033E9B7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				041B2B2C21EE0E8700D8F6CD /* Main.storyboard */,
+				97067DDF2209F60E004FE2E5 /* SimpleListViewController.xib */,
+				041B2B3421EE0EAD00D8F6CD /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0487A25621EF607D0033E9B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				041B2B2821EE0E8700D8F6CD /* AppDelegate.swift */,
+				970412BB2219760600FAE21F /* View */,
+				970412BC2219761E00FAE21F /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		55360EFAD846157D1C020FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9469B34B7F103685FB487F2D /* Pods_StarkSpire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		743B2DA99CFE8CE831C6C02B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77117823DA7014352E378645 /* Pods-StarkSpire.debug.xcconfig */,
+				25690C05C5A382992038236E /* Pods-StarkSpire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		970412BB2219760600FAE21F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97950FC521EF8FD900B2894F /* CategoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		970412BC2219761E00FAE21F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041B2B2A21EE0E8700D8F6CD /* ViewController.swift */,
+				97950FC721EFAA5C00B2894F /* SubCategoryVC.swift */,
+				97067DDD2209EA98004FE2E5 /* ProductListVC.swift */,
+				97067DE12209F641004FE2E5 /* SimpleListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		97067DDA2209DFA8004FE2E5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				97067DD82209DF9F004FE2E5 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041B2B3A21EE0EAD00D8F6CD /* Build configuration list for PBXNativeTarget "StarkSpire" */;
 			buildPhases = (
+				955DFA3BCCB29559F6F20981 /* [CP] Check Pods Manifest.lock */,
 				041B2B2121EE0E8700D8F6CD /* Sources */,
 				041B2B2221EE0E8700D8F6CD /* Frameworks */,
 				041B2B2321EE0E8700D8F6CD /* Resources */,
+				79F7439EDFAF5C5F006B64C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +247,73 @@
 			files = (
 				041B2B3621EE0EAD00D8F6CD /* LaunchScreen.storyboard in Resources */,
 				041B2B3321EE0EAD00D8F6CD /* Assets.xcassets in Resources */,
+				97067DE02209F60E004FE2E5 /* SimpleListViewController.xib in Resources */,
 				041B2B2E21EE0E8700D8F6CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79F7439EDFAF5C5F006B64C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarkSpire/Pods-StarkSpire-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarkSpire/Pods-StarkSpire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955DFA3BCCB29559F6F20981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarkSpire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		041B2B2121EE0E8700D8F6CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97067DDE2209EA9B004FE2E5 /* ProductListVC.swift in Sources */,
+				0487A24F21EF03C20033E9B7 /* ServiceClass.swift in Sources */,
+				97950FC821EFAA5C00B2894F /* SubCategoryVC.swift in Sources */,
+				970412BA2219536900FAE21F /* CoreDataStack.swift in Sources */,
+				0487A24D21EEF38D0033E9B7 /* RecordModel.swift in Sources */,
+				97067DE22209F641004FE2E5 /* SimpleListViewController.swift in Sources */,
 				041B2B2B21EE0E8700D8F6CD /* ViewController.swift in Sources */,
 				041B2B3121EE0E8700D8F6CD /* StarkSpire.xcdatamodeld in Sources */,
+				97950FC621EF8FD900B2894F /* CategoryCell.swift in Sources */,
+				0487A25121EF5DFA0033E9B7 /* CommonUtils.swift in Sources */,
 				041B2B2921EE0E8700D8F6CD /* AppDelegate.swift in Sources */,
+				97067DD92209DF9F004FE2E5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +457,11 @@
 		};
 		041B2B3B21EE0EAD00D8F6CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77117823DA7014352E378645 /* Pods-StarkSpire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6KF9P75W6;
+				DEVELOPMENT_TEAM = NKF7DZ3X72;
 				INFOPLIST_FILE = StarkSpire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,10 +476,11 @@
 		};
 		041B2B3C21EE0EAD00D8F6CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25690C05C5A382992038236E /* Pods-StarkSpire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6KF9P75W6;
+				DEVELOPMENT_TEAM = NKF7DZ3X72;
 				INFOPLIST_FILE = StarkSpire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
